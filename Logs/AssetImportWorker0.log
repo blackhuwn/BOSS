@@ -1594,3 +1594,21 @@ Number of updated assets reloaded before import = 0
 Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Vegetation/Vegetation_LadyFern_Occlusion.tga using Guid(0bfebc8b1fd9aba45a507d8ac36ad33e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
  -> (artifact id: '1602aa155ca4039b37f21fa6dacb2524') in 2.693257 seconds 
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 197.298863 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Bushes
+  artifactKey: Guid(f05ee13a53129224faa450713f409992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Bushes using Guid(f05ee13a53129224faa450713f409992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfe2405efbff312f3de521339c7ecb28') in 0.007882 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards
+  artifactKey: Guid(a6b7a7a1ea050b84eae1a6be0478ace5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards using Guid(a6b7a7a1ea050b84eae1a6be0478ace5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01ba649688764a27f9daf219e43c99c7') in 0.007070 seconds 
+Number of asset objects unloaded after import = 1

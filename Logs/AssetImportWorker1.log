@@ -1679,3 +1679,7 @@ Number of updated assets reloaded before import = 0
 Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_L1_LOD0.fbx using Guid(6039ba61fa6e6da49a824a66612b742e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
  -> (artifact id: '67d3a0889fc6fa4761b0c74fcbe4bef7') in 1.389830 seconds 
 Number of asset objects unloaded after import = 23
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
