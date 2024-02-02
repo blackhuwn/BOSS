@@ -1,0 +1,1596 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.31f1 (3409e2af086f) revision 3410402'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'zh' Physical Memory: 32677 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/MyWork2023/54435234gergerg/66666
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3376
+Successfully changed project path to: E:/MyWork2023/54435234gergerg/66666
+E:/MyWork2023/54435234gergerg/66666
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31244] Host "[IP] 192.168.1.165 [Port] 0 [Flags] 2 [Guid] 378757484 [EditorId] 378757484 [Version] 1048832 [Id] WindowsEditor(7,WIN-MI943NO3NQC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31244] Host "[IP] 192.168.1.165 [Port] 0 [Flags] 2 [Guid] 378757484 [EditorId] 378757484 [Version] 1048832 [Id] WindowsEditor(7,WIN-MI943NO3NQC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 77.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.31f1 (3409e2af086f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/MyWork2023/54435234gergerg/66666/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5955 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.041607 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.875 seconds
+Domain Reload Profiling:
+	ReloadAssembly (876ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (481ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (120ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.969 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2970ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (2607ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (2084ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (1907ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (46.4 KB). Loaded Objects now: 3526.
+Memory consumption went from 112.0 MB to 112.0 MB.
+Total: 2.431300 ms (FindLiveObjects: 0.245000 ms CreateObjectMapping: 0.210100 ms MarkObjects: 1.923200 ms  DeleteObjects: 0.052100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025497 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in 18.648 seconds
+Domain Reload Profiling:
+	ReloadAssembly (18648ms)
+		BeginReloadAssembly (3279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (12198ms)
+			LoadAssemblies (3177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3478ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (692ms)
+			SetupLoadedEditorAssemblies (7728ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1645ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (5639ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (184ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (24.7 MB). Loaded Objects now: 3537.
+Memory consumption went from 138.2 MB to 113.5 MB.
+Total: 6.243400 ms (FindLiveObjects: 0.354800 ms CreateObjectMapping: 0.344000 ms MarkObjects: 3.892200 ms  DeleteObjects: 1.650800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29522.885866 seconds.
+  path: Assets/Open World Nature/Grasslands Demo/Forest Glade/Forest Glade.unity
+  artifactKey: Guid(2bae76b1c7342054d9636826b8e618f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands Demo/Forest Glade/Forest Glade.unity using Guid(2bae76b1c7342054d9636826b8e618f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de51aaee24123f38039d5ab4fe89f5b') in 0.925241 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034199 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in 13.321 seconds
+Domain Reload Profiling:
+	ReloadAssembly (13321ms)
+		BeginReloadAssembly (7606ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3626ms)
+		EndReloadAssembly (1717ms)
+			LoadAssemblies (3441ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (575ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (831ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (602ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (44ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (24.7 MB). Loaded Objects now: 3540.
+Memory consumption went from 138.4 MB to 113.7 MB.
+Total: 4.602000 ms (FindLiveObjects: 0.351000 ms CreateObjectMapping: 0.326300 ms MarkObjects: 2.963000 ms  DeleteObjects: 0.960700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 187.365340 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Packages.pdb
+  artifactKey: Guid(20464c0b2f035794c918b169c75b9062) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Packages.pdb using Guid(20464c0b2f035794c918b169c75b9062) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d73e450317f30d55acaf6c5d3afeb0c') in 0.143627 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Pine_B_M1_billboard.asset
+  artifactKey: Guid(a16d48f18e99b694bb05bda07ae559e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Pine_B_M1_billboard.asset using Guid(a16d48f18e99b694bb05bda07ae559e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a3c890e51fe6e08e63804c03ad08e59') in 0.056221 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Open World Nature/Grasslands/Grass/Grass Clump Small.prefab
+  artifactKey: Guid(a9df0d09b9043c94cae6ca361b0ddd5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Grass/Grass Clump Small.prefab using Guid(a9df0d09b9043c94cae6ca361b0ddd5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb6893528313113eac5c680abae374fb') in 0.037318 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Open World Nature/Grasslands Demo/Forest Glade/Forest Glade Trees.prefab
+  artifactKey: Guid(f773c53563bc53141a92d1e4f069c258) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands Demo/Forest Glade/Forest Glade Trees.prefab using Guid(f773c53563bc53141a92d1e4f069c258) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2d4b602ec41ef298f9f7ac9985a01d8') in 0.210531 seconds 
+Number of asset objects unloaded after import = 12065
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Open World Nature/Grasslands/Vegetation/Perennials.prefab
+  artifactKey: Guid(940ea58ff1ba9f14395f392b96e4ec60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Vegetation/Perennials.prefab using Guid(940ea58ff1ba9f14395f392b96e4ec60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '834a9a52cd4885cff25e45cb605bcbc2') in 2.897095 seconds 
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Shrub_Oak_billboard.asset
+  artifactKey: Guid(ccec6ca3c2e496b478942fa011cbf103) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Shrub_Oak_billboard.asset using Guid(ccec6ca3c2e496b478942fa011cbf103) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62a082d9b2c114ce67d4f70a868ee78b') in 3.189133 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Shrub_Maple_billboard.asset
+  artifactKey: Guid(20d74a35d4644dd409398a42554d5b09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Shrub_Maple_billboard.asset using Guid(20d74a35d4644dd409398a42554d5b09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6aef3df004ee4ffc292085a7afa05abd') in 0.028954 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Open World Nature/Grasslands/Bushes/Broadleaf Bush L1.prefab
+  artifactKey: Guid(bf2d5d75eeda64d46abe455746c31443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Bushes/Broadleaf Bush L1.prefab using Guid(bf2d5d75eeda64d46abe455746c31443) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '943065d73b549b7a17109a7b4add9465') in 0.082667 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/Trees/Tree Birch.prefab
+  artifactKey: Guid(a5a7de34f44d69c41b728e4a640722f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Trees/Tree Birch.prefab using Guid(a5a7de34f44d69c41b728e4a640722f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc7de37979f4bbdc65f8cdcaf8f999be') in 0.049342 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.Editor.pdb
+  artifactKey: Guid(c5e8025835adda444bc0e009703bd3d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.Editor.pdb using Guid(c5e8025835adda444bc0e009703bd3d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f0a024f0be9d7d24a99200134fe62df') in 0.018608 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Open World Nature/Grasslands Demo/Forest Glade/Forest Glade Terrain.asset
+  artifactKey: Guid(c117d07463022a04cad076984ee8cd1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands Demo/Forest Glade/Forest Glade Terrain.asset using Guid(c117d07463022a04cad076984ee8cd1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e5f8799be05b2037faa9266ac1d674c') in 0.114158 seconds 
+Number of asset objects unloaded after import = 409
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Open World Nature/Grasslands/Vegetation/Lady Fern.prefab
+  artifactKey: Guid(d2dafb69413e4544486c669e0ca34919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Vegetation/Lady Fern.prefab using Guid(d2dafb69413e4544486c669e0ca34919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '037d08136c86cdc05abc14b49b7ba1d1') in 0.022259 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/boulder_rounded-mossy_small-long.fbx
+  artifactKey: Guid(c2f3da7201178104eb3a6119b5ff472e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/boulder_rounded-mossy_small-long.fbx using Guid(c2f3da7201178104eb3a6119b5ff472e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f30c0621776e7e34ba98176316e62cf8') in 0.061988 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.Editor.xml
+  artifactKey: Guid(d3f9c88f16263f543a5e24659985ac78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.Editor.xml using Guid(d3f9c88f16263f543a5e24659985ac78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d1906556b304449f885d06a963cce88') in 0.027568 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.Community.dll
+  artifactKey: Guid(c436bf21cda512446b9305a3b35d5bd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Editor.Community.dll using Guid(c436bf21cda512446b9305a3b35d5bd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0dc32cb558352a587875498e038e1c0') in 0.031942 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.Events.pdb
+  artifactKey: Guid(5c307c02a8682144ba18cac71a7b3a22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.Events.pdb using Guid(5c307c02a8682144ba18cac71a7b3a22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50edfa27041045d32c2bb6af8b5fa2e2') in 0.008241 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Birch_billboard.asset
+  artifactKey: Guid(03a4c308c93545845820a4c9bf5e6d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Birch_billboard.asset using Guid(03a4c308c93545845820a4c9bf5e6d84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5db25e0f549694886e5c5edc6a0f4962') in 0.017540 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Open World Nature/Grasslands/Rocks/Boulder Round Group.prefab
+  artifactKey: Guid(968f9300b67610444935349996d75265) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Rocks/Boulder Round Group.prefab using Guid(968f9300b67610444935349996d75265) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4646be5770a843f20d86ad1f311dcb58') in 0.014646 seconds 
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.dll
+  artifactKey: Guid(1b569252fc267bc4588d2bfc062b15b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.dll using Guid(1b569252fc267bc4588d2bfc062b15b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61e4d7ef8aceece6801312b4a928a6b0') in 0.017117 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_Bush_M1_LOD1.fbx
+  artifactKey: Guid(c5d5409d5cd869e418f6010ded62c9e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_Bush_M1_LOD1.fbx using Guid(c5d5409d5cd869e418f6010ded62c9e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40196a49f1e2e53b2b00a36068a9a7e9') in 0.101796 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_M1_LOD1.fbx
+  artifactKey: Guid(ddf95129fa33b7b40817dfafd6995006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_M1_LOD1.fbx using Guid(ddf95129fa33b7b40817dfafd6995006) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62f6dd9c2a22928103fe7903e46d5019') in 2.652851 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Pine_B_L1_LOD1.fbx
+  artifactKey: Guid(d64f462384fcfdf4b8283aa3afdcfbb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Pine_B_L1_LOD1.fbx using Guid(d64f462384fcfdf4b8283aa3afdcfbb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1233513ebaa360d739132549da36e002') in 0.079915 seconds 
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Oak_LOD2.fbx
+  artifactKey: Guid(100f1bd0e90e9434494337add95c612d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Oak_LOD2.fbx using Guid(100f1bd0e90e9434494337add95c612d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f05973f57fb1ee7146b5d164ec4a47a') in 0.048473 seconds 
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_XL1_LOD1.fbx
+  artifactKey: Guid(4b949cea5798d85488f962d9351805f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_XL1_LOD1.fbx using Guid(4b949cea5798d85488f962d9351805f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f148ae665d0de0547814079d5578847') in 0.048957 seconds 
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Pine_B_XL1_LOD1.fbx
+  artifactKey: Guid(c7a52186b4440394f8c0bdea5e645b8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Pine_B_XL1_LOD1.fbx using Guid(c7a52186b4440394f8c0bdea5e645b8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '206b0f3d640e8faf5e0644dc939aef7e') in 0.038559 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/vegetation_fern-lady.fbx
+  artifactKey: Guid(c1982f54a33a88748932ac1b3cca4cac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/vegetation_fern-lady.fbx using Guid(c1982f54a33a88748932ac1b3cca4cac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8798c9ca01ae55f3042447433148fe89') in 0.028801 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Shrub_Maple_LOD0.fbx
+  artifactKey: Guid(e1fb4e0b5f6342440b449f3e3b1273bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Shrub_Maple_LOD0.fbx using Guid(e1fb4e0b5f6342440b449f3e3b1273bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57bc4b67098c57612152380ba455acb2') in 0.037422 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Open World Nature/Grasslands/Bushes/Broadleaf Bush M1.prefab
+  artifactKey: Guid(b7ab619e76ebedb4d87e6ccac5c1c63f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Bushes/Broadleaf Bush M1.prefab using Guid(b7ab619e76ebedb4d87e6ccac5c1c63f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5983faf5c4b2d14d0996c7e28ca66e1') in 0.011499 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Broadleaf_XL1_billboard.asset
+  artifactKey: Guid(1a016e7a119b8684e9a4b9fd0c107323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Broadleaf_XL1_billboard.asset using Guid(1a016e7a119b8684e9a4b9fd0c107323) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ef4e34f826022595f8d080fa8fd63a3') in 0.014234 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_L1_LOD1.fbx
+  artifactKey: Guid(eaa310aaf30e9334492ffec994b3673d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_L1_LOD1.fbx using Guid(eaa310aaf30e9334492ffec994b3673d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4183427e6a0bb54b348368a960d7c07') in 0.043232 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Birch_LOD0.fbx
+  artifactKey: Guid(b1e6c93c26b651842a629f14e95f5aa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Birch_LOD0.fbx using Guid(b1e6c93c26b651842a629f14e95f5aa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc994e525e1ff382562e02fe3149cc19') in 3.529287 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Terrain Layers/Forest Floor.terrainlayer
+  artifactKey: Guid(e437306d03d46864dae8b6087fa6a078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Terrain Layers/Forest Floor.terrainlayer using Guid(e437306d03d46864dae8b6087fa6a078) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '745fa81d53421e1edf0d444b07ec5a31') in 0.152466 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001043 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Packages.dll.mdb
+  artifactKey: Guid(6756a700d6d599c4290b252c21864fb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.PackageManager/VisualDesignCafe.Packages.dll.mdb using Guid(6756a700d6d599c4290b252c21864fb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf83d861bdcafbbf9629aa6de34d2ec2') in 0.047028 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.023916 seconds.
+  path: Assets/Open World Nature/Grasslands/Trees/Tree Pine B L1.prefab
+  artifactKey: Guid(f6d00c3455f64524c95b6431e68d6360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Trees/Tree Pine B L1.prefab using Guid(f6d00c3455f64524c95b6431e68d6360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6a0c92ea3579f779087e1afa5bf9c5e') in 2.284165 seconds 
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.014995 seconds.
+  path: Assets/Open World Nature/Grasslands Demo/Forest Glade/Forest Glade/Lightmap-0_comp_dir.png
+  artifactKey: Guid(cdac5154ea50331428319969f7553d0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands Demo/Forest Glade/Forest Glade/Lightmap-0_comp_dir.png using Guid(cdac5154ea50331428319969f7553d0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f10188b728fccfcd95935d7b7b86ac2') in 0.932388 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003555 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Pine_L2_LOD0.fbx
+  artifactKey: Guid(f70f5abfd3089d94a8fc150476274789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Pine_L2_LOD0.fbx using Guid(f70f5abfd3089d94a8fc150476274789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bfb1df917293bb2be9cf30a517f52bd') in 0.061634 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Open World Nature/Grasslands/Trees/Tree Pine B M1.prefab
+  artifactKey: Guid(e432b9cd5290f624bb7356f789e2de60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Trees/Tree Pine B M1.prefab using Guid(e432b9cd5290f624bb7356f789e2de60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07eed46ed3b500af3d2a25178f22f5bc') in 0.253113 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.dll.mdb
+  artifactKey: Guid(56d6863acab6a3b459f945cf2b2aff6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.dll.mdb using Guid(56d6863acab6a3b459f945cf2b2aff6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad2cb506d8f2fddbdb39e066bd295f31') in 0.035179 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Broadleaf_L1_billboard.asset
+  artifactKey: Guid(a56e5c6903211854e8429aca7dfaa5f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Broadleaf_L1_billboard.asset using Guid(a56e5c6903211854e8429aca7dfaa5f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e999c7d44b95026dbb2714d6a4a87447') in 0.026893 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_M2_LOD1.fbx
+  artifactKey: Guid(55a74ff3e9a64f74097c7c4d620b62ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_M2_LOD1.fbx using Guid(55a74ff3e9a64f74097c7c4d620b62ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a38592af2a04edf4676f208ab40f732') in 0.044427 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Open World Nature/Grasslands Demo/Forest Glade/Forest Glade/OcclusionProbeData.asset
+  artifactKey: Guid(37dcbe0eb6075e14d97dba91e03f8086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands Demo/Forest Glade/Forest Glade/OcclusionProbeData.asset using Guid(37dcbe0eb6075e14d97dba91e03f8086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08f2df78cda98a13ee5b9424442ccb30') in 0.015165 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Shrub_Maple_LOD1.fbx
+  artifactKey: Guid(933b8261bc97b15489cdb64f4127f768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Shrub_Maple_LOD1.fbx using Guid(933b8261bc97b15489cdb64f4127f768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ef3035e5ba4132ef3accbaaeaac75e1') in 0.041552 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Maple_LOD1.fbx
+  artifactKey: Guid(6b138f40c1f367343b52573a78fa95e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Maple_LOD1.fbx using Guid(6b138f40c1f367343b52573a78fa95e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '760f1ff4a8dbb018ff2ae6d83fc73641') in 0.031733 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Broadleaf_Bush_M1_billboard.asset
+  artifactKey: Guid(0a29b278573a72948b76caecc34f6328) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Broadleaf_Bush_M1_billboard.asset using Guid(0a29b278573a72948b76caecc34f6328) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b68dba10aafc0dd6b15c278c6bf1b40c') in 0.013303 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Terrain Layers/Grass.terrainlayer
+  artifactKey: Guid(fc85afb458d304547a602b5b32bdbe8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Terrain Layers/Grass.terrainlayer using Guid(fc85afb458d304547a602b5b32bdbe8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45f05f13acfddd8ea4f97392a0c16123') in 0.013240 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Open World Nature/Grasslands/Rocks/Boulder Small Round.prefab
+  artifactKey: Guid(2bc5df001fa35c3499cc4a8d92e998cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Rocks/Boulder Small Round.prefab using Guid(2bc5df001fa35c3499cc4a8d92e998cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a48abdcef56a1a94015477b1445a3bbc') in 0.015705 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Open World Nature/Grasslands/Rocks/Boulder Small Long.prefab
+  artifactKey: Guid(881f54d57b1ed3f458ea1a205a168555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Rocks/Boulder Small Long.prefab using Guid(881f54d57b1ed3f458ea1a205a168555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1412cdadff4c5a0174728bb1d8798819') in 0.014886 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Open World Nature/Grasslands Demo/Forest Glade/Forest Glade/AmbientProbeData.asset
+  artifactKey: Guid(e2d527208fdfd8945a876e00d33af45d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands Demo/Forest Glade/Forest Glade/AmbientProbeData.asset using Guid(e2d527208fdfd8945a876e00d33af45d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10d0990dcfc7e4ceeacb687f1e4feec2') in 0.010230 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Maple Billboard.mat
+  artifactKey: Guid(5aeb855fd01e4fb40954938e00ab2c8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Maple Billboard.mat using Guid(5aeb855fd01e4fb40954938e00ab2c8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6db168e8de47e6debc5cc81fc79548c3') in 2.495411 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Broadleaf M1 Billboard.mat
+  artifactKey: Guid(43b5bb6e69d88b24e8c1e658f7d92f91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Broadleaf M1 Billboard.mat using Guid(43b5bb6e69d88b24e8c1e658f7d92f91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a85a42ac7895a05eec2cddfbd32d138f') in 0.580341 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Bush Broadleaf L1 Billboard.mat
+  artifactKey: Guid(5779c0f0f518cd34191151ba3cbf5b31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Bush Broadleaf L1 Billboard.mat using Guid(5779c0f0f518cd34191151ba3cbf5b31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7691a3e40001fd7d3808714b0f2839d') in 1.013835 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.002389 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Broadleaf_Bush_L1_billboard.asset
+  artifactKey: Guid(5a61c59cfb399b1439542365e17b554a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Broadleaf_Bush_L1_billboard.asset using Guid(5a61c59cfb399b1439542365e17b554a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49f6276c1ad232e614751b14368af990') in 0.020630 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_Bush_L1_LOD1.fbx
+  artifactKey: Guid(bd8f68d04ccc2af44b0168e02c01555e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_Bush_L1_LOD1.fbx using Guid(bd8f68d04ccc2af44b0168e02c01555e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c79a1e20dd2fe02db6756ba8b4b9eda') in 0.036594 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands Demo/(Source Assets)/Textures/GridEmissive.png
+  artifactKey: Guid(a196fd6788131ec459bfb26012466fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands Demo/(Source Assets)/Textures/GridEmissive.png using Guid(a196fd6788131ec459bfb26012466fc1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e8e2efd568a9b2083dc6b2266b771d4') in 0.184373 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Pine_B_XL1_LOD0.fbx
+  artifactKey: Guid(651052a68b54ca24a87be4a179182f18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Pine_B_XL1_LOD0.fbx using Guid(651052a68b54ca24a87be4a179182f18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '230709c13f6f9c561b2488ec6ad63073') in 3.842017 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Ground/Ground Rock.mat
+  artifactKey: Guid(a85508998efbf3f4196f0ae3c99af61c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Ground/Ground Rock.mat using Guid(a85508998efbf3f4196f0ae3c99af61c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9500c6c3c5432899a41c1b0fa0380ee2') in 0.088165 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Grass/Grass Generic Clump.mat
+  artifactKey: Guid(becee1c70ea9d90458b2a489eb6f85ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Grass/Grass Generic Clump.mat using Guid(becee1c70ea9d90458b2a489eb6f85ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca9c67b2ee36edb068978bb19cb3b73e') in 7.509496 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000780 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Pine_S1_billboard.asset
+  artifactKey: Guid(1b18f7d1c8ceb2942a2f8385c15960d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Pine_S1_billboard.asset using Guid(1b18f7d1c8ceb2942a2f8385c15960d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f370c0ccf44ef7521dafb7cddb7cd0f0') in 0.028725 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Open World Nature/Grasslands Demo/Asset Overview/Asset Overview.unity
+  artifactKey: Guid(e32749f5da108f749a6cbed6544f7a40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands Demo/Asset Overview/Asset Overview.unity using Guid(e32749f5da108f749a6cbed6544f7a40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '873f1f6e180e04780936bd603a5542eb') in 0.015932 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Open World Nature/Grasslands Demo/(Source Assets)/Textures/SwatchWhiteAlbedo.png
+  artifactKey: Guid(9d0b29cecf2678b41982d2173d3670ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands Demo/(Source Assets)/Textures/SwatchWhiteAlbedo.png using Guid(9d0b29cecf2678b41982d2173d3670ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cbc3d05a88688e37d92738861ceb233') in 0.086677 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Pine_S1_LOD0.fbx
+  artifactKey: Guid(7d21a82615b983b4ca328a9b218643c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Pine_S1_LOD0.fbx using Guid(7d21a82615b983b4ca328a9b218643c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66c274a5f353b0c34eb0191a5aef559d') in 0.042756 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.xml
+  artifactKey: Guid(bb96b6bc032e9f1449cf7f2c8cdfb2a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.xml using Guid(bb96b6bc032e9f1449cf7f2c8cdfb2a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2b9d9c99267bd395340a87506f932e6') in 0.017835 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Pine_XL1_billboard.asset
+  artifactKey: Guid(6de72b5917aad554c81f42f799b200a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Pine_XL1_billboard.asset using Guid(6de72b5917aad554c81f42f799b200a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '588c7e846daf12f89196b82fde01a37e') in 0.025737 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/grass_generic_clump_large-tall.fbx
+  artifactKey: Guid(b3d3b08867f3c3944bfbbee9cd65a4cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/grass_generic_clump_large-tall.fbx using Guid(b3d3b08867f3c3944bfbbee9cd65a4cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa1cfb44a9d17740740e854b02ad6f1c') in 0.038627 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Trees/Broadleaf Optimized Bark.mat
+  artifactKey: Guid(c912c6d608cde384d8c0eefa9b0102aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Trees/Broadleaf Optimized Bark.mat using Guid(c912c6d608cde384d8c0eefa9b0102aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd28efc5d7b96754083b6cb0658150bd8') in 4.422658 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.004645 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/GustNoiseAtPosition.asset
+  artifactKey: Guid(4946b007b4ba4704c8acb691bdc87dae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/GustNoiseAtPosition.asset using Guid(4946b007b4ba4704c8acb691bdc87dae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a75338ca92919328c0b7df4b5e6cf1b2') in 0.040037 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/GetWindStrength.asset
+  artifactKey: Guid(81b67046328b6f44f9bbfde7e0fba2b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/GetWindStrength.asset using Guid(81b67046328b6f44f9bbfde7e0fba2b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b82b32e410422606de475e4ba4d657f') in 0.016049 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/ApplyTreeWindDisplacement.asset
+  artifactKey: Guid(0eb84d03384e16540a3d42d8a1457ec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/ApplyTreeWindDisplacement.asset using Guid(0eb84d03384e16540a3d42d8a1457ec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b0d2cf94e8465346df2f0dd8cff2d1f') in 0.014325 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/RandomStiffnessAtPosition.asset
+  artifactKey: Guid(43c9aeffc64b5f8428a58f7379d9891e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/RandomStiffnessAtPosition.asset using Guid(43c9aeffc64b5f8428a58f7379d9891e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f43e70f39d4857a335f11b82f292cf76') in 0.014793 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/ApplyWavyWindDisplacement.asset
+  artifactKey: Guid(0ee77c6fde315f64da1e1a69578982d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/ApplyWavyWindDisplacement.asset using Guid(0ee77c6fde315f64da1e1a69578982d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '187bd97a8729f34135eba12e0ee3df7a') in 0.011924 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Vegetation/Lady Fern.mat
+  artifactKey: Guid(7780ba2ae25079442a8573a7fef04ff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Vegetation/Lady Fern.mat using Guid(7780ba2ae25079442a8573a7fef04ff0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98f71c8ae5b2c636323920721794ba01') in 0.033974 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.002897 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/ShiverNoiseAtPosition.asset
+  artifactKey: Guid(963c9cfd90a741a40a043be481ff1707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/ShiverNoiseAtPosition.asset using Guid(963c9cfd90a741a40a043be481ff1707) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3494b91dac50db307d83cc5141c67368') in 0.020036 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Images/ShiverNoise.tga
+  artifactKey: Guid(66dd7d1835f20b8419dbc5544a12688a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Images/ShiverNoise.tga using Guid(66dd7d1835f20b8419dbc5544a12688a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ac21d5f38829c130c450fee3f3f1840') in 0.088743 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Birch_billboard_Normal.tga
+  artifactKey: Guid(154d3e931d747004bbc0ca46930139c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Birch_billboard_Normal.tga using Guid(154d3e931d747004bbc0ca46930139c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22dbc7e5a8fc40f27fa170dacf377100') in 0.085616 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Broadleaf_M2_billboard.asset
+  artifactKey: Guid(08505d45f5c6a8546a5ed6e6458045c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Broadleaf_M2_billboard.asset using Guid(08505d45f5c6a8546a5ed6e6458045c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50acc70a8e683bc502c1feec12ee6d18') in 0.012813 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Maple_LOD0.fbx
+  artifactKey: Guid(c346267f730c4b84ab06c719f190199f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Maple_LOD0.fbx using Guid(c346267f730c4b84ab06c719f190199f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3072504a9d6dca43fbd5ea4f372e7d0d') in 0.043290 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/Shrubs/Shrub Birch.prefab
+  artifactKey: Guid(510a48ee339833a4d87c5b68ee6d2c5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Shrubs/Shrub Birch.prefab using Guid(510a48ee339833a4d87c5b68ee6d2c5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fd7599b405f41c7b36e4f24a47ce464') in 0.016506 seconds 
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Ground/Ground Grass.mat
+  artifactKey: Guid(1e3387eefeb2e974e9c3a0f1663989c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Ground/Ground Grass.mat using Guid(1e3387eefeb2e974e9c3a0f1663989c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '644f47e1505a5a081b804f33ab2b03fc') in 0.021654 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Open World Nature/Grasslands/Trees/Tree Pine S1.prefab
+  artifactKey: Guid(4f436b52dbd9560459d5d889526bb964) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Trees/Tree Pine S1.prefab using Guid(4f436b52dbd9560459d5d889526bb964) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bfbcaa281abe534b9e2242996f9163c') in 5.233157 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.003975 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Broadleaf_XL1_billboard_Albedo.tga
+  artifactKey: Guid(b292e22a368800246beb9683e654c113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Broadleaf_XL1_billboard_Albedo.tga using Guid(b292e22a368800246beb9683e654c113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d1af750ab0e2f31ab5a0ba78e3a1565') in 1.553206 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Broadleaf_M1_billboard_Albedo.tga
+  artifactKey: Guid(3713d39196f8ab74e8882581217663e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Broadleaf_M1_billboard_Albedo.tga using Guid(3713d39196f8ab74e8882581217663e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bdbbf0439125ddf60c57eb2446f0020c') in 0.119646 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Pine_B_M1_billboard_Normal.tga
+  artifactKey: Guid(6f8ff5c349af6ed498aaedb9fb0db604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Pine_B_M1_billboard_Normal.tga using Guid(6f8ff5c349af6ed498aaedb9fb0db604) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d02970e1944a455df45398d27e79117') in 0.076137 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Maple_billboard_Albedo.tga
+  artifactKey: Guid(e5fe681df76f03c498fa9e21a8e20699) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Maple_billboard_Albedo.tga using Guid(e5fe681df76f03c498fa9e21a8e20699) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '885070034c021336e9a961fa8ca3af79') in 1.520603 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.360409 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Pine_B_XL1_billboard_Normal.tga
+  artifactKey: Guid(c05095c490baf4a4386ce72ed82009d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Pine_B_XL1_billboard_Normal.tga using Guid(c05095c490baf4a4386ce72ed82009d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0b3c1e8b79f229e3e3fcb245d8269bf') in 0.579270 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Pine_L1_billboard_Normal.tga
+  artifactKey: Guid(64d6a7b30d9bc1f4f8db2c8cce8aedea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Pine_L1_billboard_Normal.tga using Guid(64d6a7b30d9bc1f4f8db2c8cce8aedea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce2fae5a2be8fa300a046e2d6bb8f394') in 0.101125 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Trees/Pine Optimized Leaf.mat
+  artifactKey: Guid(2417b1a800f67e247878dc598a81ae6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Trees/Pine Optimized Leaf.mat using Guid(2417b1a800f67e247878dc598a81ae6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47fbea87f6a9bea281254913f280a309') in 3.863004 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Shrub_Oak_billboard_Albedo.tga
+  artifactKey: Guid(5c977b63d979ee24faaf38730ac94167) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Shrub_Oak_billboard_Albedo.tga using Guid(5c977b63d979ee24faaf38730ac94167) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70ac20e315f3d29ac94ac5765d57c61e') in 0.156102 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Bushes/Bush_Broadleaf_Normal.tga
+  artifactKey: Guid(e04e877ad820f0246ad37653340f9c0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Bushes/Bush_Broadleaf_Normal.tga using Guid(e04e877ad820f0246ad37653340f9c0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '063784372ff704cf0fcf5a111f2b013e') in 0.095548 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Pine_XL1_billboard_Normal.tga
+  artifactKey: Guid(38ea694fc251787469be14c90c41269d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Pine_XL1_billboard_Normal.tga using Guid(38ea694fc251787469be14c90c41269d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '586449738f857d0e2d2c5d8bbca7bf9d') in 0.082352 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Trees/Birch Optimized Leaf.mat
+  artifactKey: Guid(50ec604a733c87a44b49d83aea21a61a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Trees/Birch Optimized Leaf.mat using Guid(50ec604a733c87a44b49d83aea21a61a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a326a3c0bfd99812e65ebab6392a63c') in 0.033959 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Pine L2 Billboard.mat
+  artifactKey: Guid(508d5772b5444b345af70f42f92daafc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Pine L2 Billboard.mat using Guid(508d5772b5444b345af70f42f92daafc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '906dd7a28fcf111727f7712c8813520d') in 5.959335 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Flowers/Flower_Blue-Tall_Occlusion.tga
+  artifactKey: Guid(c766f4815825ba34ca3c7829e3f18393) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Flowers/Flower_Blue-Tall_Occlusion.tga using Guid(c766f4815825ba34ca3c7829e3f18393) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae0c2992488900c34a4dafeda98740b5') in 1.406384 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000887 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Flowers/Flower_Generic-Yellow_Albedo.tga
+  artifactKey: Guid(a355ae9a4416d924383c19cc2c805f88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Flowers/Flower_Generic-Yellow_Albedo.tga using Guid(a355ae9a4416d924383c19cc2c805f88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6559c731f92b372e1688a6cb69ebaf6a') in 0.233384 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Flowers/Flower_Generic-Yellow_Normal.tga
+  artifactKey: Guid(d5d6e6cd4f03d6444a1d66fcafcfd293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Flowers/Flower_Generic-Yellow_Normal.tga using Guid(d5d6e6cd4f03d6444a1d66fcafcfd293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4252abb9053cf42b4a241c9a53ba4fa') in 0.120103 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Vegetation.shader
+  artifactKey: Guid(e24aaa7a69829064798c0d699760d7e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Vegetation.shader using Guid(e24aaa7a69829064798c0d699760d7e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91af94e9d5891f0d38f0b98cfebefb45') in 1.552436 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Grass/Grass_Generic-Round_Group_Albedo.tga
+  artifactKey: Guid(c0f7001ff42ca2b47b457e0647a733a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Grass/Grass_Generic-Round_Group_Albedo.tga using Guid(c0f7001ff42ca2b47b457e0647a733a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7ec40dba72c7ab9af5de7284ec80bda') in 3.506793 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Forest-Dirt_Albedo.tga
+  artifactKey: Guid(19329b832ae28e24d990c4728eb4ec37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Forest-Dirt_Albedo.tga using Guid(19329b832ae28e24d990c4728eb4ec37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a13216d7bf4243d1a468703a366ded3b') in 0.081045 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Forest-Dirt_Height.tga
+  artifactKey: Guid(344ea8529aa826d4e938f77ff7fecc44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Forest-Dirt_Height.tga using Guid(344ea8529aa826d4e938f77ff7fecc44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe256e39b77befd49aa15a51f274f1a4') in 1.334363 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009928 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Forest-Dirt_Normal.tga
+  artifactKey: Guid(b2830ce353a38b7428a2de48351525b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Forest-Dirt_Normal.tga using Guid(b2830ce353a38b7428a2de48351525b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6bb68a6f02a84e9c99d263bc601fce0') in 3.677389 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002785 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Rock_Occlusion.tga
+  artifactKey: Guid(701297686d093cc428e5de4a5d510c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Rock_Occlusion.tga using Guid(701297686d093cc428e5de4a5d510c26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6118a25c608b207321ffacb7d555187') in 0.542146 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Rocks/Boulder_Normal.tga
+  artifactKey: Guid(2935f86f184a94e47867b1bd64873c79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Rocks/Boulder_Normal.tga using Guid(2935f86f184a94e47867b1bd64873c79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f5d3738682ba007b450d15d444cb1cc') in 0.590993 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Birch_Albedo.tga
+  artifactKey: Guid(854feb7bef96aff469e32738a582bda8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Birch_Albedo.tga using Guid(854feb7bef96aff469e32738a582bda8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '579aa155a99d549ad3fc36033c89e53b') in 0.196423 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Broadleaf_Normal.tga
+  artifactKey: Guid(7d55a1491123c5d4795487706849277b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Broadleaf_Normal.tga using Guid(7d55a1491123c5d4795487706849277b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c5f94bd17e25ac8cdbc0373ac511ee5') in 0.096548 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Bushes/Bush_Broadleaf_Occlusion.tga
+  artifactKey: Guid(849368975aa05a44093ef870f13094db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Bushes/Bush_Broadleaf_Occlusion.tga using Guid(849368975aa05a44093ef870f13094db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1e565b8bc07abcc2d34e2269a66ad0d') in 0.085871 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Open World Nature/Grasslands Demo/(Source Assets)/Materials/Clouds.mat
+  artifactKey: Guid(bd7e6c4945f57a5488270cea28c5ca56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands Demo/(Source Assets)/Materials/Clouds.mat using Guid(bd7e6c4945f57a5488270cea28c5ca56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5c59700958393f89bf33a1d8cb5b678') in 0.013048 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Broadleaf_M2_billboard_Albedo.tga
+  artifactKey: Guid(d7182ae0dc0fce4419deb1f5eca8bbcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Broadleaf_M2_billboard_Albedo.tga using Guid(d7182ae0dc0fce4419deb1f5eca8bbcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e32105d6e0ad692061772a0c4ad3d53') in 0.921932 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Pine_B_Albedo.tga
+  artifactKey: Guid(211d943a4a07a4f46829432062759870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Pine_B_Albedo.tga using Guid(211d943a4a07a4f46829432062759870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed38aa0054b389579a35cd678b2818ec') in 0.104216 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Oak_Occlusion.tga
+  artifactKey: Guid(05f189094ab11444eb08228c5fffd69a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Oak_Occlusion.tga using Guid(05f189094ab11444eb08228c5fffd69a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '566a7bdfe5f6cb248495ec66e83c2a4c') in 0.089685 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Maple_Occlusion.tga
+  artifactKey: Guid(4465ce15c8b24b446a7810fdbc73f469) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Maple_Occlusion.tga using Guid(4465ce15c8b24b446a7810fdbc73f469) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '806d046721e9bd913bea2863dd5af95d') in 0.143041 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Rocks/Boulder_Smoothness.tga
+  artifactKey: Guid(5c30037aa07b4e54c917d20092b96079) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Rocks/Boulder_Smoothness.tga using Guid(5c30037aa07b4e54c917d20092b96079) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45c653cca59c6927a20f72b075936f31') in 1.779311 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003922 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Vegetation/Vegetation_LadyFern_Albedo.tga
+  artifactKey: Guid(dd20bd7cb80e3e14e99cedee545335d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Vegetation/Vegetation_LadyFern_Albedo.tga using Guid(dd20bd7cb80e3e14e99cedee545335d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d3f5dd59746e86306d0a06a79d9f3a5') in 0.921897 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021213 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Vegetation/Vegetation_LadyFern_Normal.tga
+  artifactKey: Guid(7508615f76c31604cb01535c87f1d838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Vegetation/Vegetation_LadyFern_Normal.tga using Guid(7508615f76c31604cb01535c87f1d838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec8582ccca1829619eed223ebbfdf93e') in 0.490981 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.061801 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_XL2_LOD1.fbx
+  artifactKey: Guid(9c9a671b34509f744a897d2e6fbf2f57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Broadleaf_XL2_LOD1.fbx using Guid(9c9a671b34509f744a897d2e6fbf2f57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e254293d42b906407527bb0cce25f10c') in 0.063127 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Pine B XL1 Billboard.mat
+  artifactKey: Guid(ad48562116df2c842897b1e722b105d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Pine B XL1 Billboard.mat using Guid(ad48562116df2c842897b1e722b105d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aaee141e5b8812ddff0a7eac9a93e610') in 0.023439 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Maple_LOD2.fbx
+  artifactKey: Guid(97d6d41fc23d95845b497dd572a6ac05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/tree_Maple_LOD2.fbx using Guid(97d6d41fc23d95845b497dd572a6ac05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d2edef65fe925aa9c446a4b99e604d3') in 0.050897 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Shrub_Birch_billboard.asset
+  artifactKey: Guid(8e8b18155ffb8184bbf843631a2a2437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Shrub_Birch_billboard.asset using Guid(8e8b18155ffb8184bbf843631a2a2437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae0bf85b0e97adafcc40cd3fbca58fbb') in 0.022421 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Dirt_Height.tga
+  artifactKey: Guid(0c59788e465083d45852f3b16ca31fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Dirt_Height.tga using Guid(0c59788e465083d45852f3b16ca31fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecd58dce03cb6ccf4765d4633408d2dc') in 0.514721 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.776626 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.Events.xml
+  artifactKey: Guid(e570b09349ce6104fb14431f5ea26f6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.Events.xml using Guid(e570b09349ce6104fb14431f5ea26f6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9d61315a02003d1a357cf77ddcd8a00') in 0.018860 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.225989 seconds.
+  path: Assets/Open World Nature/Grasslands/Flowers/Blue Tall Flower.prefab
+  artifactKey: Guid(eeab9b609ac4f884c92e8716e30fba32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/Flowers/Blue Tall Flower.prefab using Guid(eeab9b609ac4f884c92e8716e30fba32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '054b3ff934c44fefa0a68ced8153894a') in 0.084385 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/boulder_rounded-mossy_medium.fbx
+  artifactKey: Guid(62541198296b30a42a2b4dc24362f891) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Meshes/boulder_rounded-mossy_medium.fbx using Guid(62541198296b30a42a2b4dc24362f891) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '216bb8b9d84b4eb12781f50046d70410') in 0.501668 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Pine_B_M1_billboard_Albedo.tga
+  artifactKey: Guid(d8592ec946a027441bd39ac063101560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Pine_B_M1_billboard_Albedo.tga using Guid(d8592ec946a027441bd39ac063101560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdb46a79c9314d6c019aedf8d0c71c17') in 0.277961 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Grass_Albedo.tga
+  artifactKey: Guid(843cab13a0567d640bcdd4b264846a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Grass_Albedo.tga using Guid(843cab13a0567d640bcdd4b264846a3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90e81d88014b8c1220f44b55d6b22131') in 0.126466 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Oak Billboard.mat
+  artifactKey: Guid(01b19396ccfc3394c9174a1497359ac5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Oak Billboard.mat using Guid(01b19396ccfc3394c9174a1497359ac5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d42923d371c8a2c4e083f5f39566598') in 0.045252 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Rocks/Boulder_Occlusion.tga
+  artifactKey: Guid(6f0019f2b3caa1e48aef3fa2e2505e4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Rocks/Boulder_Occlusion.tga using Guid(6f0019f2b3caa1e48aef3fa2e2505e4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c038e7e041071611e036c3c562a37d59') in 0.188119 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.dll.mdb
+  artifactKey: Guid(b49c8f4664c6c4740862dbb388511543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.dll.mdb using Guid(b49c8f4664c6c4740862dbb388511543) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4eba26ed76c4c789dfbe6f1788fffc35') in 0.015466 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Pine_Albedo.tga
+  artifactKey: Guid(1ced79eaceeec3042aeed811df503d31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Pine_Albedo.tga using Guid(1ced79eaceeec3042aeed811df503d31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35de24528bff8dbf6ceb84efda177c31') in 0.105447 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Pine_L2_billboard.asset
+  artifactKey: Guid(8614f13e52ecdfc44b766d9e62d6095d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Pine_L2_billboard.asset using Guid(8614f13e52ecdfc44b766d9e62d6095d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3827d7d637e7782b7bd8a51e2e3580c6') in 0.026788 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Rock_Smoothness.tga
+  artifactKey: Guid(466156ea6c0438445b8cba6632bcd44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Ground/Ground_Rock_Smoothness.tga using Guid(466156ea6c0438445b8cba6632bcd44c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd20246376d902e135c20311942027842') in 0.108284 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/CalculateGustStrength.asset
+  artifactKey: Guid(8ac917d4010d0724a8232bf839ff0a0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Functions/CalculateGustStrength.asset using Guid(8ac917d4010d0724a8232bf839ff0a0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46089dc788ff72eb6801e03e07de1c42') in 0.013090 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Pine_L2_billboard_Normal.tga
+  artifactKey: Guid(ab39b026ba82b3140a064058cacaa2d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Pine_L2_billboard_Normal.tga using Guid(ab39b026ba82b3140a064058cacaa2d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9808cd00f94d4afcf4e0e267558a8b93') in 1.085938 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.Editor.dll.mdb
+  artifactKey: Guid(6ee921b721cafe443ae354839374eaa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.OpenWorldNature/VisualDesignCafe.Nature.Editor.dll.mdb using Guid(6ee921b721cafe443ae354839374eaa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '615073c8d2f4db8082bdacaaea74c25d') in 0.022607 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Tree Leaves.shader
+  artifactKey: Guid(de028222d59fa5c46b9defb9b446e7f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Shaders/Tree Leaves.shader using Guid(de028222d59fa5c46b9defb9b446e7f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef53db01de0ab2ebd72383c471dc940e') in 2.046199 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Pine_B_Normal.tga
+  artifactKey: Guid(c84aeee0d186b00429e7def71a09f324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Pine_B_Normal.tga using Guid(c84aeee0d186b00429e7def71a09f324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '187e0b3737351609285ad3d59532d108') in 0.556730 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Broadleaf M2 Billboard.mat
+  artifactKey: Guid(7acdb19fae45c064b8b4e1edad7eee82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Billboards/Broadleaf M2 Billboard.mat using Guid(7acdb19fae45c064b8b4e1edad7eee82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0e44dae2c5d7749c3d5bb631f22019b') in 0.035827 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Trees/Pine Optimized Bark.mat
+  artifactKey: Guid(db5825c8c997b4341afc88281c129506) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Trees/Pine Optimized Bark.mat using Guid(db5825c8c997b4341afc88281c129506) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cce599b9a4b62f9c4e47f2f5648afa1') in 0.054568 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Ground/Ground Dirt.mat
+  artifactKey: Guid(6bc319e6c00d8a74da3198db9aa4ed85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Ground/Ground Dirt.mat using Guid(6bc319e6c00d8a74da3198db9aa4ed85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '483f5a8e4fad6134e4d7b2f8890ff66e') in 0.046743 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.Events.dll
+  artifactKey: Guid(cd0c17270fe942040943959e9e8b668a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Plugins/com.VisualDesignCafe.Assemblies/VisualDesignCafe.Editor.Events.dll using Guid(cd0c17270fe942040943959e9e8b668a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40c2e70f8813a73a4d1a475ed1bcc16f') in 0.027079 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Pine_B_L1_billboard.asset
+  artifactKey: Guid(8dd89e9b210dfce40bb1e8e643e3069d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Billboards/tree_Pine_B_L1_billboard.asset using Guid(8dd89e9b210dfce40bb1e8e643e3069d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96b8a11c690b324270b65dcd4571b8ef') in 0.014037 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Broadleaf_Bush_L1_billboard_Albedo.tga
+  artifactKey: Guid(9763b7eececd70f48ac31e5008a18820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Broadleaf_Bush_L1_billboard_Albedo.tga using Guid(9763b7eececd70f48ac31e5008a18820) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb183ef371caa37fd9a92f6d12cad3ad') in 0.085574 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Trees/Oak Optimized Leaf.mat
+  artifactKey: Guid(6b3f3923638f86946921ea42345c1b9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Materials/Trees/Oak Optimized Leaf.mat using Guid(6b3f3923638f86946921ea42345c1b9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96487a6673697ed26e4969a1ff0b1e1f') in 0.030470 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Birch_Normal.tga
+  artifactKey: Guid(970c587df34bb67429a1ee49f2a53c62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Trees/Tree_Birch_Normal.tga using Guid(970c587df34bb67429a1ee49f2a53c62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '830d0a62f906c6f0cab8fb914f1003da') in 0.080349 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Broadleaf_L1_billboard_Albedo.tga
+  artifactKey: Guid(30d2e8507e9e5894487983a331467c86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Billboards/tree_Broadleaf_L1_billboard_Albedo.tga using Guid(30d2e8507e9e5894487983a331467c86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9e0fad59aa9acfe5fccee9fb7aa3b50') in 1.422853 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.038603 seconds.
+  path: Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Vegetation/Vegetation_LadyFern_Occlusion.tga
+  artifactKey: Guid(0bfebc8b1fd9aba45a507d8ac36ad33e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Open World Nature/Grasslands/(Source Assets)/Textures/Vegetation/Vegetation_LadyFern_Occlusion.tga using Guid(0bfebc8b1fd9aba45a507d8ac36ad33e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1602aa155ca4039b37f21fa6dacb2524') in 2.693257 seconds 
+Number of asset objects unloaded after import = 1
